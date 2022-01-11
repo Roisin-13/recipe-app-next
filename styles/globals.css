@@ -1,16 +1,40 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
 
-a {
-  color: inherit;
-  text-decoration: none;
+.header {
+    background-image:url("../public/AC_BGGraphic_TITLE_5120x400.jpg");
+  background-repeat: repeat-x;
+  background-size: 2000px;
+  position: fixed;
+  height: 160px;
+  width: 100%;
+  align-items: center;
+  border: 2px solid pink;
 }
-
-* {
-  box-sizing: border-box;
+.acCookies {
+    display: block;
+  position: relative;
+  top: 20px;
+  margin:auto;
+  object-fit: cover;
+  border: 2px solid darkblue;
+}
+.biscuitBox {
+  display: block;
+  height: 100vh;
+  padding-top: 200px;
+  padding-left: 50px;
+  margin: auto;
+  /* text-align: center;
+  align-items: center; */
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid darkblue;
+}
+li {
+  list-style: none;
+}
+.biscuitImage {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-bottom: 1rem;
 }

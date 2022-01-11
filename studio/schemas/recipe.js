@@ -24,7 +24,7 @@ export default {
             to: {type: "chef"},
         },
         {
-            name: "maniImage",
+            name: "mainImage",
             title: "Recipe Main Image",
             type: "image",
             options: {
