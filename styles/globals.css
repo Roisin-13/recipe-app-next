@@ -8,7 +8,9 @@
   height: 160px;
   width: 100%;
   align-items: center;
-  border: 2px solid pink;
+}
+body {
+  background-color: #f7f2eb;
 }
 .acCookies {
     display: block;
@@ -16,25 +18,82 @@
   top: 20px;
   margin:auto;
   object-fit: cover;
-  border: 2px solid darkblue;
 }
 .biscuitBox {
   display: block;
   height: 100vh;
+  width: 80%; 
   padding-top: 200px;
-  padding-left: 50px;
   margin: auto;
-  /* text-align: center;
-  align-items: center; */
+  background-color: white;
   font-family: 'Ubuntu', sans-serif;
-  border: 2px solid darkblue;
 }
-li {
-  list-style: none;
+.allTheRecipes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  gap: 50px;
+  list-style: none; 
+}
+.recipeItem {
+  /* list-style: none; */
+}
+.recipeItem a {
+  display: block;
+  height: 100%;
+  /* text-decoration: none; */
+  color: #5c728c;
 }
 .biscuitImage {
-    height: 100px;
-    width: 100px;
+    display: block;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     margin-bottom: 1rem;
+}
+
+/*--------recipe page--------*/
+
+.recipe {
+  display: block;
+  width: 80%;
+  padding-top: 200px;
+  margin: auto;
+    background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+  color: #5c728c;
+}
+.recipe h1 {
+  font-size: 50px;
+  color: #e15a97;
+}
+.recipe h3 {
+  color: #56b3ae;
+}
+.heroImage{
+    display: block;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.recipeContent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.recipeBox{
+ display: grid;
+ grid-template-columns: 1fr 3fr;
+ gap: 10px;
+}
+.ingredientS{
+
+}
+.ingredient {
+
+}
+.instructions{
+
 }

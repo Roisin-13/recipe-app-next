@@ -28,12 +28,12 @@ export default function Home({recipes}) {
       <main className="biscuitBox">
       <h1>Biscuits for you</h1>
 
-      <ul>
+      <ul className="allTheRecipes">
       {recipes?.length > 0 && recipes.map((recipe) => (
-        <li>
-          <Link href="/">
+        <li className="recipeItem">
+          <Link href={`/recipes/${recipe.slug.current}`}>
             <a>
-              <img src={urlFor(recipe.mainImage)} className="biscuitImage"/>
+              <img src={urlFor(recipe.mainImage)} className="biscuitImage" alt={recipe.name}/>
               <span>{recipe.name}</span>
             </a>
           </Link>
